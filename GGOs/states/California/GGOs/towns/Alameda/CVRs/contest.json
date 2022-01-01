@@ -1,30 +1,18 @@
 {
     "CVR": {
-        "cast_branch": "CVRs/0005/4723af75b1",
+        "cast_branch": "CVRs/0007/02c52912f9",
         "choices": [
-            {
-                "name": "Twenty Seven",
-                "party": "Circle Party"
-            },
-            {
-                "name": "Twenty Eight",
-                "party": "Triangle Party"
-            },
-            {
-                "name": "Jane Doe",
-                "party": "Pentagon Party"
-            },
-            {
-                "name": "John Doe",
-                "party": "Rectangle Party"
-            }
+            true,
+            false
         ],
         "ggo": "GGOs/states/California/GGOs/towns/Alameda",
-        "name": "mayor",
+        "max": 1,
+        "name": "Question 2 - new firehouse land purchase",
         "selection": [
-            "0: Twenty Seven"
+            "1: no"
         ],
-        "tally": "rcv",
-        "uid": "0005"
+        "tally": "plurality",
+        "uid": "0007",
+        "win-by": "2/3"
     }
 }
