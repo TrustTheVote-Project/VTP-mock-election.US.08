@@ -1,6 +1,6 @@
 {
     "CVR": {
-        "cast_branch": "CVRs/0001/b9510698cc",
+        "cast_branch": "CVRs/0001/ee28591a26",
         "choices": [
             {
                 "name": "Larry Hogan",
@@ -22,7 +22,10 @@
         "ggo": "GGOs/states/California",
         "name": "US senate",
         "selection": [
-            "0: Larry Hogan"
+            "3: Alexandria Ocasio-Cortez",
+            "0: Larry Hogan",
+            "2: Pramila Jayapal",
+            "1: Greg Abbott"
         ],
         "tally": "rcv",
         "uid": "0001"
