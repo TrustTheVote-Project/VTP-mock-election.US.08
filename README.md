@@ -11,9 +11,14 @@ This repo is currently stitched into the VTP-root-repo via a symlink as opposed 
 ```bash
 # clone both repos
 $ git clone git@github.com:TrustTheVote-Project/VTP-root-repo.git
-$ git clone git@github.com:TrustTheVote-Project/VTP-mock-election.US.07.git
+$ git clone git@github.com:TrustTheVote-Project/VTP-mock-election.US.08.git
 $ cd VTP-root-repo
-$ ln -s ../VTP-mock-election.US.07 ElectionData
+$ ln -s ../VTP-mock-election.US.08 ElectionData
+
+# Make sure there is a compatible python environment - any reasonable
+# python framework can be used.  See the VTP-root-repo:./bin/README.md file
+# for more details.
+$ conda activate vtp.01
 
 # To setup a mock demo election, run the following:
 $ cd bin
